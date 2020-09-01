@@ -18,6 +18,7 @@ const Home = () => {
     <div className="main-div" style={{ display: "flex" }}>
       <div className="user-info" style={stylebro}>
         <h2>user length is:{user.length}</h2>
+        <h2>Router,dynamic data pass</h2>
         {user.map((info) => (
           <Friends user={info}></Friends>
         ))}
